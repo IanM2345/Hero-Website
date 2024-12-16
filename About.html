@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>My First Web Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <nav>
+               <a href="Home.html"><img src="Images/pbpmanph9ub61.webp" class="logo"> </a>
+               <i class="fa fa-bars" onclick="showMenu()"></i>
+               <div id="nav-links">
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                 <li><a href="Life.html">Life</a></li>
+                 <li><a href="Youtube.html">Youtube</a></li>
+                 <li><a href="Boxing.html">Boxing</a></li>
+                 <li><a href="Sidemen.html">Sideman</a></li>
+                 <li><a href="Influence.html">Influence</a></li>
+                 <li><a href="Gallery.html">Gallery</a></li>
+                 <li><a href="About.html">Author</a></li>
+                </ul>
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+            </div>
+             </nav>
+        </header>
+  <div id="Nightmare">
+    
+        <div class="container">
+            <main>
+                <h2 class="heading">Personal Profile Page</h2>
+        
+               <img class="me" src="Images/IMG_5508.JPG"alt="A photo of Ian Mwai Gachoki" >
+            <div class="aboutMe"> 
+            <p class="my-jazz">My name is Ian Mwai Gachoki i am 18 years old and a student at Griffith College. I am a Kenyan by birth. I am six feet and one inch tall. I currently reside in Dublin . My personal interests are reading (with my favourite book being The Second Coming Of Gluttony), Gaming (mostly play Football manager but my favourite game is God of War), football (Am a city fan call me plastic all you like)and philospohy(yeah i know weird). I want to become a game developer at the end of this course thats why i choose to do computer science. That is all for now.</p>
+                </div>
+         </div>
+            
+     </div>
+<!--JavaScript for the menu on small screen devices-->
+    <script>
+
+        var navLinks = document.getElementById("nav-links");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-30rem";
+        }
+    </script>
+    <footer>
+        <div class="row">
+            <div class="col">
+                <img src="Images/pbpmanph9ub61.webp" alt="" class="footer-logo">
+                <p>
+                    
+                </p>
+            </div>
+            <div class="col">
+                <h3>Youtube<div class="underline"><span></span></h3>
+                <a href="https://www.youtube.com/@ksi"><img src="Images/unnamed.jpg" alt="" width="20" height="20"></a>
+                <a href="https://www.youtube.com/@jjolatunji"><img src="Images/jj.olatunji.jpg" alt=""width="20" height="20" ></a>
+                <a href="https://www.youtube.com/@KSIClips"><img src="Images/Ksi-Animated.jpg" alt="" width="20" height="20"></a>
+            </div>
+            <div class="col">
+                <h3>Social Links<div class="underline"><span></span></h3>
+                    <a href="https://www.instagram.com/ksi/"><img src="Images/1_Instagram_colored_svg_1-512.webp" alt="" width="20" height="20"></a>
+        
+                 <a href="https://twitter.com/KSI"><img src="Images/1_Twitter_colored_svg-512.webp" alt="" width="20" height="20" ></a>
+        
+                 <a href="https://www.youtube.com/@jjolatunji"><img src="Images/Social-media_Tiktok-512.webp" alt="" width="20" height="20"></a>
+            </div>
+            <div class="col">
+                <h3>Sidemen Channels <div class="underline"><span></span></div></h3>
+                <a href="https://www.youtube.com/@Sidemen"><img src="Images/Main-Channel.jpg" alt="" width="20" height="20"></a>
+                <a href="https://www.youtube.com/@MoreSidemen"><img src="Images/more-sidemen.jpg" alt="" width="20" height="20"></a>
+                <a href="https://www.youtube.com/@sidemenreacts"><img src="Images/React.jpg" alt="" width="20" height="20"></a>
+                <a href="https://www.youtube.com/@SidemenShorts"><img src="Images/Shorts.jpg" alt="" width="20" height="20"></a>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Ian Mwai Gachoki © 2024- All Rights Reserved</p>
+        </footer>
+</body>
+
+</html>
